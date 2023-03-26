@@ -280,6 +280,9 @@
     line-height: 28px;
   }
 }
+.card-info__foreword {
+  margin-top: 32px;
+}
 .card-info__content {
   margin-top: 32px;
 }
