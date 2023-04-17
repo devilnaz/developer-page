@@ -121,10 +121,10 @@
   text-align: center;
 }
 .avatar-header__inner {
-  width: 22vw;
+  width: 17vw;
   max-width: 264px;
   min-width: 150px;
-  height: 22vw;
+  height: 17vw;
   max-height: 264px;
   min-height: 150px;
   border-radius: 50%;
@@ -203,7 +203,7 @@
 }
 
 .content {
-  font: 400 20px/32px "Inter";
+  font: 400 18px/30px "Inter";
 }
 .content__container {
   display: flex;
@@ -268,7 +268,7 @@
 
 .card-info__title {
   margin: 0;
-  font: 500 28px/36px "Inter";
+  font: 500 26px/34px "Inter";
 }
 @media only screen and (max-width: 768px) {
   .card-info__title {
@@ -292,7 +292,7 @@
 }
 .card-info__text {
   margin: 0;
-  font: 300 20px/32px "Inter";
+  font: 300 18px/30px "Inter";
 }
 @media only screen and (max-width: 576px) {
   .card-info__text {
@@ -303,7 +303,7 @@
 .card-info__list {
   margin: 0;
   padding-left: 0;
-  font: 300 20px/32px "Inter";
+  font: 300 18px/30px "Inter";
   list-style: none;
 }
 @media only screen and (max-width: 576px) {
@@ -356,7 +356,7 @@
   }
 }
 .card-info__btn {
-  font: 300 20px/32px "Inter";
+  font: 300 18px/30px "Inter";
   display: inline-block;
   text-decoration: none;
   border: solid 2px #1e1e1e;

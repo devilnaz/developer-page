@@ -94,10 +94,10 @@
 	min-width: 250px;
 	text-align: center;
 	&__inner {
-		width: 22vw;
+		width: 17vw;
 		max-width: 264px;
 		min-width: 150px;
-		height: 22vw;
+		height: 17vw;
 		max-height: 264px;
 		min-height: 150px;
 		border-radius: 50%;
@@ -168,7 +168,7 @@
 }
 
 .content {
-	font: 400 20px/32px 'Inter';
+	font: 400 18px/30px 'Inter';
 	&__container {
 		display: flex;
 		justify-content: space-between;
@@ -229,7 +229,7 @@
 .card-info {
 	&__title {
 		margin: 0;
-		font: 500 28px/36px 'Inter';
+		font: 500 26px/34px 'Inter';
 		@include media('max', 'md') {
 			text-align: center;
 		}
@@ -249,7 +249,7 @@
 	}
 	&__text {
 		margin: 0;
-		font: 300 20px/32px 'Inter';
+		font: 300 18px/30px 'Inter';
 		@include media('max', 'sm') {
 			font-size: 16px;
 			line-height: 22px;
@@ -258,7 +258,7 @@
 	&__list {
 		margin: 0;
 		padding-left: 0;
-		font: 300 20px / 32px 'Inter';
+		font: 300 18px/30px 'Inter';
 		list-style: none;
 		@include media('max', 'sm') {
 			font-size: 16px;
@@ -306,7 +306,7 @@
 		}
 	}
 	&__btn {
-		font: 300 20px/32px 'Inter';
+		font: 300 18px/30px 'Inter';
 		display: inline-block;
 		text-decoration: none;
 		border: solid 2px #1e1e1e;
