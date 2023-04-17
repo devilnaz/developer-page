@@ -133,7 +133,7 @@
 @media only screen and (max-width: 768px) {
   .avatar-header__inner {
     height: 180px;
-    width: 180;
+    width: 180px;
   }
 }
 .avatar-header__img {
