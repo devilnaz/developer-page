@@ -94,19 +94,17 @@
 	min-width: 250px;
 	text-align: center;
 	&__inner {
-		width: 17vw;
-		max-width: 264px;
-		min-width: 150px;
-		height: 17vw;
-		max-height: 264px;
-		min-height: 150px;
+		max-width: 200px;
+		min-width: 180px;
+		max-height: 200px;
+		min-height: 180px;
 		border-radius: 50%;
 		overflow: hidden;
 		display: inline-block;
 		background-color: #cecfc9;
 		@include media('max', 'md') {
-			height: 200px;
-			width: 200px;
+			height: 180px;
+			width: 180;
 		}
 	}
 	&__img {
