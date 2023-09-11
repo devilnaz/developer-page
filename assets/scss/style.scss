@@ -74,6 +74,14 @@
 	@include media('max', 'md') {
 		flex-direction: column;
 	}
+  &__avatar {
+    
+	flex-shrink: 3;
+	width: 100%;
+	max-width: 344px;
+	min-width: 250px;
+	text-align: center;
+  }
 	&__info {
 		flex-shrink: 1;
 		width: 100%;
@@ -88,30 +96,28 @@
 }
 
 .avatar-header {
-	flex-shrink: 3;
-	width: 100%;
-	max-width: 344px;
-	min-width: 250px;
-	text-align: center;
+  display: inline-block;
+  border: 4px solid;
+  border-color: #85B2F9;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 4px;
+  box-sizing: border-box;
+  @include media('max', 'md') {
+    height: 180px;
+    width: 180px;
+  }
 	&__inner {
-		max-width: 200px;
-		min-width: 180px;
-		max-height: 200px;
-		min-height: 180px;
-		border-radius: 50%;
+    border-radius: 50%;
 		overflow: hidden;
-		display: inline-block;
-		background-color: #cecfc9;
-		@include media('max', 'md') {
-			height: 180px;
-			width: 180px;
-		}
+    width: 100%;
+    height: 100%;
 	}
 	&__img {
 		width: 100%;
-		height: auto;
-		transform: rotate(-47deg);
-		object-position: 15px -15px;
+    height: 100%;
+    object-fit: cover;
 	}
 }
 

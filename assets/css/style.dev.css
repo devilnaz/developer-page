@@ -1,0 +1,20 @@
+.temporary-navigation {
+  display: flex;
+  justify-content: center;
+}
+.temporary-navigation__inner {
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 46px;
+  border: 2px solid grey;
+  box-sizing: border-box;
+}
+.temporary-navigation a {
+  font: 300 16px/22px "Inter";
+  color: black;
+  padding: 0 10px;
+  text-decoration: none;
+}
+.temporary-navigation a:hover {
+  color: grey;
+}/*# sourceMappingURL=style.dev.css.map */
