@@ -1,63 +1,30 @@
 import Avatar from '../components/Avatar.js';
+import GluedDate from '../components/GluedDate.js';
+import InfoHeader from '../components/InfoHeader.js';
+import Contacts from '../components/Contacts.js';
 export default {
   components: {
     Avatar,
+    GluedDate,
+    InfoHeader,
+    Contacts,
   },
 	template: /*html*/ `
   <div class="developer-page__header">
-				<div class="glued-date">
-					<div class="glued-date__emptiness"></div>
-					<div class="glued-date__wrapper-updated">
-						<div class="glued-date__updated">
-							<p class="glued-date__text">Обновлено: 18 апр</p>
-						</div>
-					</div>
-				</div>
+				<GluedDate/>
 				<header class="header">
 					<div class="header__avatar">
 						<Avatar/>
 					</div>
 					<div class="header__info">
-						<div class="info-header">
-							<h1 class="info-header__name info-header__text">Ильназ Ермолаев</h1>
-							<h2 class="info-header__position info-header__text">Frontend-разработчик</h2>
-							<h3 class="info-header__location info-header__text">Россия, Казань</h3>
-						</div>
+						<InfoHeader/>
 					</div>
 				</header>
 			</div>
 			<main class="content">
 				<div class="content__container">
 					<div class="content__column content__column_small">
-						<div class="card-info card-info_contacts">
-							<div class="card-info__inner">
-								<h4 class="card-info__title">Контакты</h4>
-								<div class="card-info__content contacts">
-									<ul class="contacts__list">
-										<li class="contacts__item contacts__item_whatsapp">
-											<a href="https://wa.me/79063338080" class="contacts__link" target="_blank">
-												+7(906) 333-80-79
-											</a>
-										</li>
-										<li class="contacts__item contacts__item_telegram">
-											<a href="https://t.me/ilnazt" class="contacts__link" target="_blank">
-												ilnazDe
-											</a>
-										</li>
-										<li class="contacts__item contacts__item_github">
-											<a href="https://github.com/devilnaz" class="contacts__link" target="_blank">
-												devilnaz
-											</a>
-										</li>
-									</ul>
-									<div class="contacts__subtext">
-										Всегда доступен по WhatsApp или Telegram. Стараюсь отвечать быстро.
-										<!-- Напишите мне, постараюсь как можно
-										скорее ответить. -->
-									</div>
-								</div>
-							</div>
-						</div>
+						<Contacts/>
 					</div>
 					<div class="content__column content__column_medium">
 						<div class="card-info">
