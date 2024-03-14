@@ -4,10 +4,14 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Страница разработчика</title>
+		<link rel="shortcut icon" href="./assets/img/favicon4.svg" type="image/svg">
+    
+    <title>Страница разработчика</title>
 
 		<link href="./assets/css/style.min.css" rel="stylesheet" />
+		<link href="./assets/css/experiments.min.css" rel="stylesheet" />
 		<link href="./assets/css/style.dev.min.css" rel="stylesheet" />
+		<link href="./assets/css/components.min.css" rel="stylesheet" />
 
 		<!-- Yandex.Metrika counter -->
 		<script type="text/javascript">
@@ -48,16 +52,21 @@
 		<script src="https://unpkg.com/vue-router@4.0.15/dist/vue-router.global.js"></script>
 	</head>
 	<body class="developer-page">
-		<div id="app-developer">
+    
+
+    <div id="app-developer">
 			<div class="temporary-navigation">
 				<div class="temporary-navigation__inner">
 					<router-link to="/resume">Резюме</router-link>
+          <span class="temporary-navigation__delimetr"></span>
 					<router-link to="/freelance">Фриланс</router-link>
+          <span class="temporary-navigation__delimetr"></span>
+					<router-link to="/blog">Блог</router-link>
+          <span class="temporary-navigation__delimetr"></span>
+					<router-link to="/field">Полигон</router-link>
 				</div>
 			</div>
-			<div class="developer-page__inner">
 				<router-view></router-view>
-			</div>
 		</div>
 		<script src="./scripts/readmore.js"></script>
 		<script type="module" src="./main.js"></script>

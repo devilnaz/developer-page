@@ -1,12 +1,13 @@
 .temporary-navigation {
+  margin-top: 10px;
   display: flex;
   justify-content: center;
 }
 .temporary-navigation__inner {
   padding: 10px 20px;
-  background-color: white;
+  background-color: #e3e3e3;
   border-radius: 46px;
-  border: 2px solid grey;
+  border: 1px solid #bbbbbb;
   box-sizing: border-box;
 }
 .temporary-navigation a {
@@ -17,4 +18,11 @@
 }
 .temporary-navigation a:hover {
   color: grey;
+}
+.temporary-navigation__delimetr {
+  display: inline-block;
+  height: 20px;
+  width: 1px;
+  background-color: #bbbbbb;
+  vertical-align: top;
 }/*# sourceMappingURL=style.dev.css.map */

@@ -1,21 +1,28 @@
 .temporary-navigation {
-  display: flex;
-  justify-content: center;
-  &__inner {
-    
-  padding: 10px 20px;
-  background-color: white;
-  border-radius: 46px;
-  border: 2px solid grey;
-  box-sizing: border-box;
+  margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	&__inner {
+		padding: 10px 20px;
+		background-color: #e3e3e3;
+		border-radius: 46px;
+		border: 1px solid #bbbbbb;
+		box-sizing: border-box;
+	}
+	& a {
+		font: 300 16px/22px 'Inter';
+		color: black;
+		padding: 0 10px;
+		text-decoration: none;
+		&:hover {
+			color: grey;
+		}
+	}
+  &__delimetr {
+    display: inline-block;
+    height: 20px;
+    width: 1px;
+    background-color: #bbbbbb;
+    vertical-align: top;
   }
-& a {
-  font: 300 16px/22px "Inter";
-  color: black;
-padding: 0 10px;
-text-decoration: none;
-&:hover {
-  color: grey;
-}
-}
 }

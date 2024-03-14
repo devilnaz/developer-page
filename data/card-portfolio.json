@@ -1,0 +1,226 @@
+{
+	"cardPortfolio": [
+    {
+			"id": 1,
+			"title": "Тестовые стенды",
+			"desc": "Использовано: Vue + PrimeVue + marked/zero-md + SCSS<br>Быстрое тестирование CRM программы с накатыванием веток из GitLab'а.",
+			"screen": {
+				"src": "/assets/media/portfolio/cb-testand.png",
+				"position": "right top"
+			},
+			"btns": {
+				"demo": "https://devilnaz.github.io/cb-testand/",
+				"code": "https://devilnaz.github.io/cb-testand/"
+			}
+		},
+		{
+			"id": 2,
+			"title": "test2",
+			"desc": "Использовано: Vue + PrimeVue + marked/zero-md + SCSS<br>Быстрое тестирование CRM программы с накатыванием веток из GitLab'а.",
+			"screen": {
+				"src": "/assets/media/portfolio/cb-page-create.png",
+				"position": "top"
+			},
+			"btns": {
+				"demo": "https://devilnaz.github.io/cb-testand/"
+			}
+		},
+		{
+			"id": 2,
+			"title": "test2",
+			"desc": "Использовано: Vue + PrimeVue + marked/zero-md + SCSS<br>Быстрое тестирование CRM программы с накатыванием веток из GitLab'а.",
+			"screen": {
+				"src": "/assets/media/portfolio/cb-page-create.png",
+				"position": "top"
+			},
+			"btns": {
+				"demo": "https://devilnaz.github.io/cb-testand/"
+			}
+		},
+		{
+			"id": 2,
+			"title": "test2",
+			"desc": "Использовано: Vue + PrimeVue + marked/zero-md + SCSS<br>Быстрое тестирование CRM программы с накатыванием веток из GitLab'а.",
+			"screen": {
+				"src": "/assets/media/portfolio/cb-page-create.png",
+				"position": "top"
+			},
+			"btns": {
+				"demo": "https://devilnaz.github.io/cb-testand/"
+			}
+		},
+		{
+			"id": 1,
+			"title": "Тестовые стенды",
+			"desc": "Использовано: Vue + PrimeVue + marked/zero-md + SCSS<br>Быстрое тестирование CRM программы с накатыванием веток из GitLab'а.",
+			"screen": {
+				"src": "/assets/media/portfolio/cb-testand.png",
+				"position": "right top"
+			},
+			"btns": {
+				"demo": "https://devilnaz.github.io/cb-testand/",
+				"code": "https://devilnaz.github.io/cb-testand/"
+			}
+		},
+		{
+			"id": 2,
+			"title": "test2",
+			"desc": "Использовано: Vue + PrimeVue + marked/zero-md + SCSS<br>Быстрое тестирование CRM программы с накатыванием веток из GitLab'а.",
+			"screen": {
+				"src": "/assets/media/portfolio/cb-page-create.png",
+				"position": "top"
+			},
+			"btns": {
+				"demo": "https://devilnaz.github.io/cb-testand/"
+			}
+		},
+		{
+			"id": 2,
+			"title": "test2",
+			"desc": "Использовано: Vue + PrimeVue + marked/zero-md + SCSS<br>Быстрое тестирование CRM программы с накатыванием веток из GitLab'а.",
+			"screen": {
+				"src": "/assets/media/portfolio/cb-page-create.png",
+				"position": "top"
+			},
+			"btns": {
+				"demo": "https://devilnaz.github.io/cb-testand/"
+			}
+		},
+		{
+			"id": 2,
+			"title": "test2",
+			"desc": "Использовано: Vue + PrimeVue + marked/zero-md + SCSS<br>Быстрое тестирование CRM программы с накатыванием веток из GitLab'а.",
+			"screen": {
+				"src": "/assets/media/portfolio/cb-page-create.png",
+				"position": "top"
+			},
+			"btns": {
+				"demo": "https://devilnaz.github.io/cb-testand/"
+			}
+		},
+    {
+			"id": 1,
+			"title": "Тестовые стенды",
+			"desc": "Использовано: Vue + PrimeVue + marked/zero-md + SCSS<br>Быстрое тестирование CRM программы с накатыванием веток из GitLab'а.",
+			"screen": {
+				"src": "/assets/media/portfolio/cb-testand.png",
+				"position": "right top"
+			},
+			"btns": {
+				"demo": "https://devilnaz.github.io/cb-testand/",
+				"code": "https://devilnaz.github.io/cb-testand/"
+			}
+		},
+    {
+			"id": 1,
+			"title": "Тестовые стенды",
+			"desc": "Использовано: Vue + PrimeVue + marked/zero-md + SCSS<br>Быстрое тестирование CRM программы с накатыванием веток из GitLab'а.",
+			"screen": {
+				"src": "/assets/media/portfolio/cb-testand.png",
+				"position": "right top"
+			},
+			"btns": {
+				"demo": "https://devilnaz.github.io/cb-testand/",
+				"code": "https://devilnaz.github.io/cb-testand/"
+			}
+		},
+		{
+			"id": 2,
+			"title": "test2",
+			"desc": "Использовано: Vue + PrimeVue + marked/zero-md + SCSS<br>Быстрое тестирование CRM программы с накатыванием веток из GitLab'а.",
+			"screen": {
+				"src": "/assets/media/portfolio/cb-page-create.png",
+				"position": "top"
+			},
+			"btns": {
+				"demo": "https://devilnaz.github.io/cb-testand/"
+			}
+		},
+		{
+			"id": 2,
+			"title": "test2",
+			"desc": "Использовано: Vue + PrimeVue + marked/zero-md + SCSS<br>Быстрое тестирование CRM программы с накатыванием веток из GitLab'а.",
+			"screen": {
+				"src": "/assets/media/portfolio/cb-page-create.png",
+				"position": "top"
+			},
+			"btns": {
+				"demo": "https://devilnaz.github.io/cb-testand/"
+			}
+		},
+		{
+			"id": 2,
+			"title": "test2",
+			"desc": "Использовано: Vue + PrimeVue + marked/zero-md + SCSS<br>Быстрое тестирование CRM программы с накатыванием веток из GitLab'а.",
+			"screen": {
+				"src": "/assets/media/portfolio/cb-page-create.png",
+				"position": "top"
+			},
+			"btns": {
+				"demo": "https://devilnaz.github.io/cb-testand/"
+			}
+		},
+		{
+			"id": 1,
+			"title": "Тестовые стенды",
+			"desc": "Использовано: Vue + PrimeVue + marked/zero-md + SCSS<br>Быстрое тестирование CRM программы с накатыванием веток из GitLab'а.",
+			"screen": {
+				"src": "/assets/media/portfolio/cb-testand.png",
+				"position": "right top"
+			},
+			"btns": {
+				"demo": "https://devilnaz.github.io/cb-testand/",
+				"code": "https://devilnaz.github.io/cb-testand/"
+			}
+		},
+		{
+			"id": 2,
+			"title": "test2",
+			"desc": "Использовано: Vue + PrimeVue + marked/zero-md + SCSS<br>Быстрое тестирование CRM программы с накатыванием веток из GitLab'а.",
+			"screen": {
+				"src": "/assets/media/portfolio/cb-page-create.png",
+				"position": "top"
+			},
+			"btns": {
+				"demo": "https://devilnaz.github.io/cb-testand/"
+			}
+		},
+		{
+			"id": 2,
+			"title": "test2",
+			"desc": "Использовано: Vue + PrimeVue + marked/zero-md + SCSS<br>Быстрое тестирование CRM программы с накатыванием веток из GitLab'а.",
+			"screen": {
+				"src": "/assets/media/portfolio/cb-page-create.png",
+				"position": "top"
+			},
+			"btns": {
+				"demo": "https://devilnaz.github.io/cb-testand/"
+			}
+		},
+		{
+			"id": 2,
+			"title": "test2",
+			"desc": "Использовано: Vue + PrimeVue + marked/zero-md + SCSS<br>Быстрое тестирование CRM программы с накатыванием веток из GitLab'а.",
+			"screen": {
+				"src": "/assets/media/portfolio/cb-page-create.png",
+				"position": "top"
+			},
+			"btns": {
+				"demo": "https://devilnaz.github.io/cb-testand/"
+			}
+		},
+    {
+			"id": 1,
+			"title": "Тестовые стенды",
+			"desc": "Использовано: Vue + PrimeVue + marked/zero-md + SCSS<br>Быстрое тестирование CRM программы с накатыванием веток из GitLab'а.",
+			"screen": {
+				"src": "/assets/media/portfolio/cb-testand.png",
+				"position": "right top"
+			},
+			"btns": {
+				"demo": "https://devilnaz.github.io/cb-testand/",
+				"code": "https://devilnaz.github.io/cb-testand/"
+			}
+		}
+	]
+}
