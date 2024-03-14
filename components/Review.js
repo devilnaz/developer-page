@@ -4,7 +4,7 @@ export default {
   <div class="review" v-if="index < count">
   <div class="review__inner">
     <div class="review__column">
-      <div class="review__wrap-avatar"><img :src="data.avatar.src" alt="" class="review__avatar"></div>
+      <div class="review__wrap-avatar"><img :src="'./' + data.avatar.src" alt="" class="review__avatar"></div>
     </div>
     <div class="review__column">
       <div class="review__name">{{data.name}}</div>
