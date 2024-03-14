@@ -1,6 +1,6 @@
 export default {
 	mounted() {
-		import('/scripts/developments.js');
+		import('./../scripts/developments.js');
 	},
 	template: /*html*/ `
   <div class="wrap-slider">

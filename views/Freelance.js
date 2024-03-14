@@ -87,7 +87,7 @@ export default {
 		},
 	},
 	mounted() {
-		fetch('../data/card-portfolio.json')
+		fetch('./data/card-portfolio.json')
 			.then((res) => res.json())
 			.then((data) => {
 				this.cards = data.cardPortfolio;
@@ -96,13 +96,13 @@ export default {
 				// this.cardsCount = data.cardPortfolio.length;
 			});
 
-		fetch('../data/card-review.json')
+		fetch('./data/card-review.json')
 			.then((res) => res.json())
 			.then((data) => {
 				this.reviews = data.cardReviews;
 			});
 
-		fetch('../data/card-new.json')
+		fetch('./data/card-new.json')
 			.then((res) => res.json())
 			.then((data) => {
 				this.news = data.cardNews;

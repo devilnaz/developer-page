@@ -3,7 +3,7 @@ const Avatar = {
 	template: /*html*/ `
 		<div class="avatar-header">
 			<div class="avatar-header__inner">
-				<img :src="'../assets/media/' + src" alt="фото разработчика" class="avatar-header__img" />
+				<img :src="'./assets/media/' + src" alt="фото разработчика" class="avatar-header__img" />
 			</div>
 		</div>
 	`,
