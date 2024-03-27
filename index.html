@@ -4,9 +4,9 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" href="./assets/img/favicon4.svg" type="image/svg">
-    
-    <title>Страница разработчика</title>
+		<link rel="shortcut icon" href="./assets/img/favicon4.svg" type="image/svg" />
+
+		<title>Страница разработчика</title>
 
 		<link href="./assets/css/style.min.css" rel="stylesheet" />
 		<link href="./assets/css/experiments.min.css" rel="stylesheet" />
@@ -50,23 +50,34 @@
 		<!-- /Yandex.Metrika counter -->
 		<script src="https://unpkg.com/vue@3.3.4/dist/vue.global.js"></script>
 		<script src="https://unpkg.com/vue-router@4.0.15/dist/vue-router.global.js"></script>
+		<script src="./libs/appwrite.js"></script>
 	</head>
 	<body class="developer-page">
-    
+		<script>
+			// import { Client, Account } from 'appwrite';
 
-    <div id="app-developer">
+			const AppClient = new Appwrite.Client();
+      
+      const AppDatabases = new Appwrite.Databases(AppClient);
+
+			AppClient.setEndpoint('https://cloud.appwrite.io/v1').setProject('65f426e481ff07fd4848');
+
+			
+		</script>
+
+		<div id="app-developer">
 			<div class="temporary-navigation">
 				<div class="temporary-navigation__inner">
 					<router-link to="/resume">Резюме</router-link>
-          <span class="temporary-navigation__delimetr"></span>
+					<span class="temporary-navigation__delimetr"></span>
 					<router-link to="/freelance">Фриланс</router-link>
-          <span class="temporary-navigation__delimetr"></span>
+					<span class="temporary-navigation__delimetr"></span>
 					<router-link to="/blog">Блог</router-link>
-          <span class="temporary-navigation__delimetr"></span>
+					<span class="temporary-navigation__delimetr"></span>
 					<router-link to="/field">Полигон</router-link>
 				</div>
 			</div>
-				<router-view></router-view>
+			<router-view></router-view>
 		</div>
 		<script src="./scripts/readmore.js"></script>
 		<script type="module" src="./main.js"></script>

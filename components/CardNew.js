@@ -1,3 +1,5 @@
+import CardNew from './CardNew.js';
+
 export default {
 	props: ['data', 'displayed', 'index'],
 	template: /*html*/ `

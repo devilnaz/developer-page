@@ -47,10 +47,6 @@ ul {
   list-style: none;
 }
 
-body, html {
-  height: 100%;
-}
-
 .default-title {
   font: 500 26px/34px "Inter";
 }
